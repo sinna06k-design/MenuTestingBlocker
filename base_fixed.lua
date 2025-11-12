@@ -3074,7 +3074,7 @@ CreateThread(function()
         return
     end
     
-    dui = MachoCreateDui("http://localhost:5173/")
+    dui = MachoCreateDui("https://github.com/sinna06k-design/MenuTestingBlocker/blob/main/base_fixed.lua")
     print('DUI created')
     MachoShowDui(dui)
     
@@ -3463,4 +3463,5 @@ CreateThread(function()
         print('DUI destroyed')
     end
     dui = nil
+
 end)
